@@ -1,16 +1,28 @@
-# picsumimageapp
+# Picsum Gallery App
 
-A new Flutter project.
+A Flutter image listing app built using BLoC state management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetches images from Picsum API
+- BLoC state management
+- Clean and responsive UI
+- Loading, error, and retry states
+- Pull to refresh
+- Cached network images
+- Image detail screen
+- Hero zoom transition animation
 
-A few resources to get you started if this is your first Flutter project:
+## API Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://picsum.photos/v2/list
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages
+
+- flutter_bloc
+- http
+- equatable
+- cached_network_image
+- shimmer
+
+## by mdhabeeb.div
